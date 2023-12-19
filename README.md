@@ -1,3 +1,3 @@
 # M9_Proyecto_UF2
 
-### El proyecto lo hago solo
+### Integrantes del proyecto Iker, Noa, Carlos
