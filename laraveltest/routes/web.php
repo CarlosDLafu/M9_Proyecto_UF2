@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Customcontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,8 @@ Route::get('/dashboard', function () {
 Route::get('/turisticssites', function () {
     return view('turisticssites');
 })->middleware(['auth', 'verified'])->name('turisticssites');
+
+Route::get('/taketrip', [Customcontroller::class, 'mostrarTaketrip'])->middleware(['auth', 'verified'])->name('taketrip');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

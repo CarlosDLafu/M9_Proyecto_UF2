@@ -7,6 +7,7 @@
 
     <nav class="grid" 
     style="grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 2.5rem; gap: 1.25rem;">
+<<<<<<< HEAD
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg" style="height: 700px;">
             <img class="w-full" style="height: 100%;" src="/pintura-lago-montana-montana-al-fondo_188544-9126.avif" alt="Mountain">
@@ -81,3 +82,13 @@
         </div>
     </nav>
 </x-app-layout>
+=======
+        <!-- Cards -->
+        <x-turistic-component country="Spain" site="Madrid"/>
+        <x-turistic-component country="Spain" site="Barcelona"/>
+        <x-turistic-component country="Italia" site="Roma"/>
+        <x-turistic-component country="Francia" site="Paris"/>
+        <x-turistic-component country="Grecia" site="Atenas"/>
+    </nav>
+</x-app-layout>
+>>>>>>> modpage
