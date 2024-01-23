@@ -8,12 +8,11 @@
     <div class="container mt-5">
         <!-- Imagen centrada en la parte superior -->
         <div class="text-center">
-            
-            <img src="/pintura-lago-montana-montana-al-fondo_188544-9126.avif" alt="{{$site}}" style="
+            <img src="/{{$site}}.webp" alt="{{$site}}" style="
             margin-left: auto;
             margin-right: auto;
-            margin-top: 20px;"> 
-            <!--<img src="/{{$site}}.webp" alt="{{$site}}" class="img-fluid"> -->
+            margin-top: 20px;
+            width: 75%;"> 
         </div>
 
         <!-- Contenido del artículo -->
